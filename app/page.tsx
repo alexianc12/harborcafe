@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { MapPin, Clock } from 'lucide-react';
+
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google';
 
 const cormorant = Cormorant_Garamond({
@@ -419,7 +419,7 @@ export default function HarborCafe() {
                   width="100%"
                   height="320"
                   style={{ border: 0, display: 'block' }}
-                  allowFullScreen=""
+                  allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
@@ -446,7 +446,6 @@ export default function HarborCafe() {
             }}>
               {/* Antet Program */}
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '2.5rem' }}>
-                <Clock size={16} color={c.caramel} strokeWidth={1.5} />
                 <span style={{
                   fontFamily: 'var(--font-dm-sans)',
                   fontSize: '0.65rem', letterSpacing: '0.4em', textTransform: 'uppercase',
