@@ -144,7 +144,7 @@ export default function HarborCafe() {
           }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/harbor.img/bar1.webp" alt="Harbor Cafe coffee preparation"
+              src="/harbor.img/croissant.webp" alt="Harbor Cafe coffee preparation"
               style={{ width: '100%', height: '125%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
             />
             {/* Gradient actualizat la nuanțe de maro închis */}
@@ -248,7 +248,7 @@ export default function HarborCafe() {
             {/* Coloana 1: Ritualul */}
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <div style={{ height: '250px', overflow: 'hidden', marginBottom: '2rem' }}>
-                <img src="/harbor.img/bar1.webp" alt="Preparare cafea" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/harbor.img/bar.webp" alt="Preparare cafea" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h3 style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.8rem', color: c.darkWood, marginBottom: '1rem' }}>Un act deliberat</h3>
               <p style={{ fontFamily: 'var(--font-dm-sans)', fontSize: '0.88rem', lineHeight: 1.8, color: c.muted }}>
@@ -259,7 +259,7 @@ export default function HarborCafe() {
             {/* Coloana 2: Originea */}
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <div style={{ height: '250px', overflow: 'hidden', marginBottom: '2rem' }}>
-                <img src="/harbor.img/boabe.webp" alt="Boabe de cafea" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/harbor.img/coldbrew.webp" alt="Boabe de cafea" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h3 style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.8rem', color: c.darkWood, marginBottom: '1rem' }}>Origini singulare</h3>
               <p style={{ fontFamily: 'var(--font-dm-sans)', fontSize: '0.88rem', lineHeight: 1.8, color: c.muted }}>
@@ -270,18 +270,18 @@ export default function HarborCafe() {
             {/* Coloana 3: Spațiul */}
             <div style={{ display: 'flex', flexDirection: 'column' }}>
               <div style={{ height: '250px', overflow: 'hidden', marginBottom: '2rem' }}>
-                <img src="/harbor.img/torn.webp" alt="Design cafenea" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/harbor.img/preparare.webp" alt="Design cafenea" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <h3 style={{ fontFamily: 'var(--font-cormorant)', fontSize: '1.8rem', color: c.darkWood, marginBottom: '1rem' }}>Spațiu și lumină</h3>
               <p style={{ fontFamily: 'var(--font-dm-sans)', fontSize: '0.88rem', lineHeight: 1.8, color: c.muted, marginBottom: '2rem' }}>
-                Lumina naturală, texturile de lemn și liniștea sunt ingrediente la fel de importante ca și cafeaua însăși. Am creat un loc în care să poți respira.
+                Lumina naturală și liniștea sunt ingrediente la fel de importante ca și cafeaua însăși. Am creat un loc în care să poți respira.
               </p>
               
-              <a href="#menu" style={{
+               { /*<a href="#menu" style={{ 
                 fontFamily: 'var(--font-dm-sans)', fontSize: '0.68rem', letterSpacing: '0.3em',
                 textTransform: 'uppercase', color: c.darkWood, borderBottom: `1px solid ${c.caramel}`,
                 paddingBottom: '0.3rem', alignSelf: 'flex-start', marginTop: 'auto'
-              }}>Explorează meniul →</a>
+              }}>Explorează meniul →</a> */}
             </div>
 
           </div>
