@@ -93,7 +93,7 @@ export default function HarborCafe() {
           .menu-grid { grid-template-columns: 1fr !important; }
           .info-grid { grid-template-columns: 1fr !important; }
           .footer-inner { flex-direction: column !important; gap: 2rem !important; align-items: flex-start !important; }
-          .hero-title { font-size: clamp(4rem, 22vw, 9rem) !important; }
+          .hero-title { font-size: clamp(3rem, 15vw, 7.5rem) !important; }
           .nav-links { display: none !important; }
         }
       `}</style>
@@ -171,7 +171,7 @@ export default function HarborCafe() {
 
             <h1 className="hero-title" style={{
               fontFamily: 'var(--font-cormorant)',
-              fontSize: 'clamp(5.5rem, 17vw, 15rem)',
+              fontSize: 'clamp(4.5rem, 14vw, 11rem)',
               fontWeight: 300, lineHeight: 0.88,
               color: c.paper, letterSpacing: '-0.01em',
             }}>
