@@ -66,7 +66,7 @@ const c = {
 } as const;
 
 export default function HarborCafe() {
-  const [scrollY, setScrollY] = useState(0);
+  const [Y, setScrollY] = useState(0);
   const [navScrolled, setNavScrolled] = useState(false);
 
   useEffect(() => {
@@ -203,17 +203,7 @@ export default function HarborCafe() {
               </p>
             </div>
 
-            <div style={{
-              position: 'absolute', right: '3rem', bottom: '5rem',
-              display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem',
-            }}>
-              <span style={{
-                fontFamily: 'var(--font-dm-sans)',
-                fontSize: '0.55rem', letterSpacing: '0.4em', textTransform: 'uppercase',
-                color: 'rgba(245,239,230,0.45)', writingMode: 'vertical-rl',
-              }}>Scroll</span>
-              <div style={{ width: '1px', height: '3rem', background: 'rgba(245,239,230,0.2)' }} />
-            </div>
+            
           </div>
         </section>
 
