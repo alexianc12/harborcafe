@@ -66,7 +66,7 @@ const c = {
 } as const;
 
 export default function HarborCafe() {
-  const [Y, setScrollY] = useState(0);
+  const [scrollY, setScrollY] = useState(0);
   const [navScrolled, setNavScrolled] = useState(false);
 
   useEffect(() => {
