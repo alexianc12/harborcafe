@@ -82,19 +82,33 @@ export default function HarborCafe() {
     <>
       <style>{`
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; }
-        body { background: ${c.paper}; overflow-x: hidden; }
+        html, body { 
+          scroll-behavior: smooth; 
+          background: ${c.paper}; 
+          overflow-x: hidden !important; 
+          max-width: 100vw !important; 
+        }
         a { text-decoration: none; cursor: pointer; }
-        .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.8s ease, transform 0.8s ease; }
-        .fade-in.visible { opacity: 1; transform: none; }
         .menu-row:hover span:first-child { color: ${c.caramelLight}; transition: color 0.2s; }
+        
+        /* Setare pentru caseta de program pe laptop */
+        .schedule-box { padding: 3.5rem; }
+
         @media (max-width: 900px) {
-          .story-grid { grid-template-columns: 1fr !important; }
-          .menu-grid { grid-template-columns: 1fr !important; }
-          .info-grid { grid-template-columns: 1fr !important; }
-          .footer-inner { flex-direction: column !important; gap: 2rem !important; align-items: flex-start !important; }
-          .hero-title { font-size: clamp(3rem, 15vw, 7.5rem) !important; }
+          /* Transformăm grilele în coloane pe mobil */
+          .story-grid, .menu-grid, .info-grid, .footer-grid { grid-template-columns: 1fr !important; }
+          .footer-grid { gap: 2.5rem !important; }
+          
+          /* Micșorăm marginile laterale imense de pe mobil */
+          section { padding: 4rem 1.5rem !important; }
+          footer { padding: 4rem 1.5rem 2rem !important; }
+          
+          /* Ajustăm titlul de sus */
+          .hero-title { font-size: clamp(3.5rem, 15vw, 6rem) !important; }
           .nav-links { display: none !important; }
+          
+          /* Micșorăm caseta de program doar pe mobil ca să lăsăm textul centrat */
+          .schedule-box { padding: 1.5rem !important; }
         }
       `}</style>
 
@@ -438,10 +452,9 @@ export default function HarborCafe() {
             </div>
 
             {/* DREAPTA: Card Program & Buton Recenzii */}
-            <div style={{
+            <div className="schedule-box" style={{
               background: 'rgba(166,109,75,0.03)', // Un fundal extrem de subtil
               border: `1px solid rgba(166,109,75,0.15)`,
-              padding: '3.5rem',
               borderRadius: '8px',
             }}>
               {/* Antet Program */}
@@ -460,7 +473,7 @@ export default function HarborCafe() {
                     <span style={{
                       fontFamily: 'var(--font-dm-sans)',
                       fontSize: '0.9rem', color: c.darkWood,
-                      minWidth: '150px', flexShrink: 0,
+                      minWidth: '100px', flexShrink: 0,
                     }}>{row.days}</span>
                     <span style={{
                       flex: 1,
