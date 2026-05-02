@@ -13,12 +13,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://harborcafe.vercel.app'),
   title: 'Harbor Cafe | Specialty Coffee București',
   description: 'Un spațiu dedicat cafelei de specialitate în inima Bucureștiului. Slow coffee. Natural light. No sugar needed.',
   openGraph: {
     title: 'Harbor Cafe | Specialty Coffee',
     description: 'Un refugiu în inima Bucureștiului, unde fiecare ceașcă este preparată cu atenție.',
-    url: 'https://cafenea-harbor.vercel.app',
+    url: 'https://harborcafe.vercel.app',
     siteName: 'Harbor Cafe',
     locale: 'ro_RO',
     type: 'website',
