@@ -345,8 +345,8 @@ export default function HarborCafe() {
               {/* Coloana 2: Contact */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
                 <p style={{ fontSize: '0.65rem', letterSpacing: '0.3em', textTransform: 'uppercase', color: 'rgba(245,239,230,0.3)', marginBottom: '0.5rem' }}>{t.footer.contact}</p>
-                <a href="mailto:hello@harborcafe.ro" style={{ fontSize: '0.75rem', color: 'rgba(245,239,230,0.65)', textDecoration: 'none', transition: 'color 0.2s ease' }} onMouseEnter={(e) => (e.currentTarget.style.color = c.caramelLight)} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,239,230,0.65)')}>hello@harborcafe.ro</a>
-                <a href="tel:+40700000000" style={{ fontSize: '0.75rem', color: 'rgba(245,239,230,0.65)', textDecoration: 'none', transition: 'color 0.2s ease' }} onMouseEnter={(e) => (e.currentTarget.style.color = c.caramelLight)} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,239,230,0.65)')}>+40 700 000 000</a>
+                
+                <a href="tel:+40700000000" style={{ fontSize: '0.75rem', color: 'rgba(245,239,230,0.65)', textDecoration: 'none', transition: 'color 0.2s ease' }} onMouseEnter={(e) => (e.currentTarget.style.color = c.caramelLight)} onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(245,239,230,0.65)')}>+40 757571016</a>
               </div>
 
               {/* Coloana 3: Legal */}
