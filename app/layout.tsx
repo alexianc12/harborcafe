@@ -14,6 +14,8 @@ const geistMono = Geist_Mono({
 
 // app/layout.tsx
 
+// app/layout.tsx
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://harborcafe.vercel.app'),
   title: 'Harbor Cafe | Specialty Coffee București',
@@ -25,13 +27,13 @@ export const metadata: Metadata = {
     siteName: 'Harbor Cafe',
     locale: 'ro_RO',
     type: 'website',
-    // ADAUGĂ ACEST BLOC PENTRU IMAGINE:
+    // ACESTA ESTE BLOCUL CARE LIPSEȘTE ÎN CODUL TĂU ACTUAL[cite: 1]:
     images: [
       {
-        url: '/og-harbor.jpg', // Next.js se uită automat în folderul public
+        url: '/og-harbor.jpg', // Calea către fișierul din folderul public
         width: 1200,
         height: 630,
-        alt: 'Harbor Cafe Specialty Coffee',
+        type: 'image/jpeg',
       },
     ],
   },
