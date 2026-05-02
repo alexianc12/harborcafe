@@ -33,7 +33,6 @@ export const metadata: Metadata = {
         url: '/og-harbor.jpg', // Calea către fișierul din folderul public
         width: 1200,
         height: 630,
-        type: 'image/jpeg',
       },
     ],
   },
