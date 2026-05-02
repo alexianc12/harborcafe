@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     // ADAUGĂ ACEST BLOC PENTRU IMAGINE:
     images: [
       {
-        url: '/og-image.jpg', // Next.js se uită automat în folderul public
+        url: '/og-harbor.jpg', // Next.js se uită automat în folderul public
         width: 1200,
         height: 630,
         alt: 'Harbor Cafe Specialty Coffee',
