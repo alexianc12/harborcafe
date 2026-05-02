@@ -17,13 +17,13 @@ const geistMono = Geist_Mono({
 // app/layout.tsx
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://harborcafe.vercel.app'),
+  metadataBase: new URL('https://coffeeharbor.vercel.app/'),
   title: 'Harbor Cafe | Specialty Coffee București',
   description: 'Slow coffee. Natural light. No sugar needed.',
   openGraph: {
     title: 'Harbor Cafe | Specialty Coffee',
     description: 'Un refugiu în inima Bucureștiului, unde fiecare ceașcă este preparată cu atenție.',
-    url: 'https://harborcafe.vercel.app',
+    url: 'https://coffeeharbor.vercel.app/',
     siteName: 'Harbor Cafe',
     locale: 'ro_RO',
     type: 'website',
